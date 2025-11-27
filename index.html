@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ресторан TasteHouse</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="logo">Taste<span>House</span></div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#video">Відео</a></li>
+                <li><a href="#booking">Бронювання</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <h1 class="hero-title">Затишний ресторан європейської кухні</h1>
+                <p class="hero-subtitle">
+                    Свіжі інгредієнти, приємна атмосфера та жива музика щовихідних.
+                </p>
+                <a href="#booking" class="btn btn-primary">Забронювати столик</a>
+            </div>
+            <div class="hero-image">
+                <img src="img/1.jfif" alt="Затишний зал ресторану">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container about-inner">
+            <article>
+                <h2>Про наш ресторан</h2>
+                <p>
+                    TasteHouse – це поєднання авторської кухні, теплої атмосфери
+                    та уважного сервісу. Ми готуємо страви з локальних продуктів,
+                    поєднуючи класичні рецепти з сучасними техніками.
+                </p>
+                <p>
+                    У нашому меню – пасти, стейки, десерти власного виробництва та
+                    спеціальна пропозиція для вегетаріанців.
+                </p>
+            </article>
+            <aside class="about-highlight">
+                <h3>Години роботи</h3>
+                <p>Пн–Чт: 11:00 – 22:00</p>
+                <p>Пт–Сб: 11:00 – 23:00</p>
+                <p>Нд: 12:00 – 21:00</p>
+            </aside>
+        </div>
+    </section>
+
+    <section id="menu" class="section menu">
+        <div class="container">
+            <h2>Меню</h2>
+            <p class="section-subtitle">Кілька популярних позицій</p>
+
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <img src="img/Паста.jfif" alt="Паста карбонара">
+                    <div class="menu-content">
+                        <h3>Паста Карбонара</h3>
+                        <p>Класична італійська паста з беконом, вершками та пармезаном.</p>
+                        <span class="price">210 грн</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <img src="img/Стейк.jpg" alt="Стейк">
+                    <div class="menu-content">
+                        <h3>Стейк Рібай</h3>
+                        <p>Маринована яловичина з соусом деміглас та овочами гриль.</p>
+                        <span class="price">390 грн</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <img src="img/Чиз-кейк.png" alt="Десерт">
+                    <div class="menu-content">
+                        <h3>Фірмовий чізкейк</h3>
+                        <p>Ніжний чізкейк з сезонними ягодами та соусом.</p>
+                        <span class="price">160 грн</span>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <img src="img/Салат.webp" alt="Салат">
+                    <div class="menu-content">
+                        <h3>Салат з лососем</h3>
+                        <p>Лосось, мікс-салат, авокадо, цитрусовий соус.</p>
+                        <span class="price">240 грн</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <h2>Галерея</h2>
+            <p class="section-subtitle">Інтер'єр та атмосфера</p>
+
+            <div class="gallery-grid">
+                <figure class="gallery-item">
+                    <img src="img/Зал.jpg" alt="Зал ресторану">
+                    <figcaption>Основний зал</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/Авторский хавчик.jpg" alt="Страва">
+                    <figcaption>Авторські страви</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/Десерт.webp" alt="Десерт">
+                    <figcaption>Домашні десерти</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/Стейк2.jpg" alt="Стейк">
+                    <figcaption>Гарячі страви</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="section video-section">
+        <div class="container">
+            <h2>Відео-презентація</h2>
+            <p class="section-subtitle">Короткий огляд нашого ресторану</p>
+            <video controls class="promo-video">
+                <source src="video/promo.mp4" type="video/mp4">
+                Ваш браузер не підтримує відео.
+            </video>
+        </div>
+    </section>
+
+    <section id="booking" class="section booking">
+        <div class="container booking-inner">
+            <div>
+                <h2>Бронювання столика</h2>
+                <p class="section-subtitle">
+                    Заповніть форму, і ми підтвердимо бронювання телефоном або електронною поштою.
+                </p>
+
+                <form class="form" action="#" method="post">
+                    <div class="form-row">
+                        <label for="name">Ім'я</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-row two-columns">
+                        <div>
+                            <label for="date">Дата</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div>
+                            <label for="time">Час</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="guests">Кількість гостей</label>
+                        <input type="number" id="guests" name="guests" min="1" max="20" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="comment">Коментар</label>
+                        <textarea id="comment" name="comment" rows="3"
+                                  placeholder="Побажання щодо столика або меню"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Відправити заявку</button>
+                </form>
+            </div>
+
+            <aside class="booking-info">
+                <h3>Спеціальні пропозиції</h3>
+                <ul>
+                    <li>Знижка 10% у день народження</li>
+                    <li>Бізнес-ланч з 12:00 до 16:00</li>
+                    <li>Жива музика щоп'ятниці</li>
+                </ul>
+            </aside>
+        </div>
+    </section>
+
+    <section id="contacts" class="section contacts">
+        <div class="container contacts-inner">
+            <div>
+                <h2>Контакти</h2>
+                <p class="section-subtitle">Ми завжди на зв'язку</p>
+
+                <ul class="contact-list">
+                    <li><strong>Адреса:</strong> м. Київ, вул. Смачна, 12</li>
+                    <li><strong>Телефон:</strong> +38 (000) 123-45-67</li>
+                    <li><strong>Email:</strong> info@tastehouse.com</li>
+                </ul>
+
+                <form class="form contact-form" action="#" method="post">
+                    <div class="form-row">
+                        <label for="contact-name">Ваше ім'я</label>
+                        <input type="text" id="contact-name" name="contact-name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="contact-email">Email</label>
+                        <input type="email" id="contact-email" name="contact-email" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message">Повідомлення</label>
+                        <textarea id="message" name="message" rows="4"
+                                  placeholder="Напишіть нам запитання або відгук"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-outline">Надіслати</button>
+                </form>
+            </div>
+
+            <aside class="map-placeholder">
+                <h3>Ми на мапі</h3>
+                <p>Тут може бути інтерактивна карта з розташуванням ресторану.</p>
+            </aside>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>© 2024 TasteHouse. Усі права захищені.</p>
+        <p>Розробка студентського проєкту з HTML/CSS.</p>
+    </div>
+</footer>
+</body>
+</html>
